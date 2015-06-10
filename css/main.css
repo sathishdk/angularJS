@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	line-height: 21px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1abc9c;
+}
+.container{
+	margin-top: 20px;
+}
+.list-group{
+	box-shadow: 0px 0px 10px -2px #000;
+	position: relative;
+	z-index: 0;
+}
+.list-group-item{
+	background-color: #eee;
+	opacity: 0.9;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.list-group-item:hover{
+	opacity: 1;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.list-group-item:first-child{
+	border-radius: 0px;
+}
+.list-group-item:hover{
+	background-color: #fff;
+}
+.list-group-item img{
+	width: 75px;
+}
+.info{
+	float:right;
+	text-align: right;
+}
+.info h1{
+	font-size: 16px;
+	font-variant: bold;
+	margin-bottom: 0px;
+}
+.info h3{
+	font-size: 12px;
+	margin-top: 10px;
+	font-style: italic;
+	font-variant: normal;
+}
+.search{
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	padding: 20px 80px;
+	border-radius: 5px;
+	z-index: 2;
+	position: relative;
+}
+.search h1{
+	padding-bottom: 20px;
+	color: #fff;
+}
+.search label{
+	color: #fff;
+}
+.details{
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	padding: 20px;
+	border-radius: 5px;
+	float: left;
+	text-align: left;
+}
+.details h1{
+	margin: 10px 0px;
+	font-size: 30px;
+	color: #fff;
+}
+.details h3{
+	font-size: 16px;
+	margin: 10px 0px;
+	color: #fff;
+	font-style: italic;
+}
+.details img{
+	border-radius: 5px;
+	float: left;
+	margin-right: 15px;
+}
+.details .information{
+	color: #fff;
+	text-align: left;
+}
+.details label{
+	color: #fff;
+}
+.links{
+	float: left;
+	margin-top: 20px;
+	color: #fff;
+}
+.links:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.btn{
+	background-color: #ecf0f1;
+	color: #000;
+}
+.btn:hover{
+	background-color: #bdc3c7;
+	color: #000;
+}
+.list-group-item.ng-enter.ng-enter-active, .list-group-item.ng-leave{
+	opacity: 1;
+	height: 80px;
+	overflow: hidden;
+}
+.list-group-item.ng-leave.ng-leave-active, .list-group-item.ng-enter{
+	opacity: 0;
+	height: 0px;
+	overflow: hidden;
+}
