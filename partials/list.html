@@ -25,8 +25,8 @@
     <div class="col-md-3"></div>
 </div>
 <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
         <ul class="list-group" ng-show="search">
             <li ng-animate="'animate'" class="list-group-item" ng-repeat="item in artists | filter: search | orderBy: artistOrder:direction">
                 <a href="#/details/{{artists.indexOf(item)}}">
@@ -39,5 +39,5 @@
             </li>
         </ul>
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-3"></div>
 </div>
